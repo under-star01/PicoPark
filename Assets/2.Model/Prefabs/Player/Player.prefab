@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 5287936311857421588}
   - component: {fileID: 6797068560288179526}
   - component: {fileID: 359252821449748799}
-  - component: {fileID: 6345019482505241538}
   - component: {fileID: 4026308688082644733}
+  - component: {fileID: 6345019482505241538}
   - component: {fileID: 7634458753017272158}
   - component: {fileID: 3746403909291097395}
   - component: {fileID: 7788780580615787173}
@@ -161,9 +161,9 @@ MonoBehaviour:
   moveSpeed: 4
   jumpForce: 12
   groundCheck: {fileID: 0}
+  frontPlayer: {fileID: 0}
   isInputPushing: 0
   isContributingPush: 0
-  frontPlayer: {fileID: 0}
   ceilCheck: {fileID: 0}
   inputLocked: 0
   returnPos: {fileID: 0}
@@ -240,23 +240,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.6, y: 0.97}
   m_EdgeRadius: 0
---- !u!114 &6345019482505241538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 459922248547352802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f6f3bf89aa97405989c802ba270f815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Mirror.Components::Mirror.NetworkAnimator
-  syncDirection: 0
-  syncMode: 0
-  syncInterval: 0
-  clientAuthority: 1
-  animator: {fileID: 843471294947913791}
 --- !u!114 &4026308688082644733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,6 +257,23 @@ MonoBehaviour:
   serverOnly: 0
   visibility: 0
   hasSpawned: 0
+--- !u!114 &6345019482505241538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459922248547352802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6f3bf89aa97405989c802ba270f815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Mirror.Components::Mirror.NetworkAnimator
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  clientAuthority: 1
+  animator: {fileID: 843471294947913791}
 --- !u!114 &7634458753017272158
 MonoBehaviour:
   m_ObjectHideFlags: 0
