@@ -1,5 +1,10 @@
 # PICO_PARK_PROJECT
 
+<p align="center">
+  <img height="260" alt="Last Attraction Screenshot 1" src="https://github.com/user-attachments/assets/2db319d3-5709-4fb2-99fd-66aa8aeaadfa" />
+  <img height="260" alt="Last Attraction Screenshot 2" src="https://github.com/user-attachments/assets/872ee97c-cae3-4b92-ac42-1b6bad8f5d2e" />
+</p>
+
 Pico Park 모작 기반의 협동 퍼즐 구조를  
 **멀티플레이 프로젝트**로 구현한 Unity 게임입니다.
 
